@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.choise{
+  background-color: rgb(100,150,200);
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+  /* padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%; */
+}
+.panel{
+  padding: 2%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+}
+.icons{
+  width: 33.3%;
+  margin-top: 0px;
+  float: left;
+  overflow: hidden;
+  height: 100%;
+ }
+.icons h3{
+  margin-top: 60px;
+  text-align: center;
+  color: #079992;
+  text-transform: uppercase;
+  font-family: arial;
+  transform: translateY(30px);
+  transition: 0.8s;
+}
+.icons p{
+  font-family: arial;
+  text-align: center;
+  color: #70a1ff;
+  transform: translateY(0px);
+}
+.icons h5{
+  color: #0652DD;
+  font-family: arial;
+}
+.try h5{
+  transform: translateY(-45px);
+  text-align: center;
+  text-transform: none;
+  font-family: gabriola;
+  line-height: 10px;
+  color: #0a3d62;
+  opacity: 0;
+  transition: 0.2s;
+}
+.icons a{
+  text-decoration: none;
+  display: block;
+  height: 110%;
+}
+.icons img{
+  transform: translateY(80px);
+  transition: 1s;
+}
+.try:hover h5{
+  transition: 1.5s;
+  opacity: 1;
+  transform: translateY(-70px);
+}
+.icons:hover img{
+  transform: translateY(25px);
+  transition: 1s;
+}
+.icons:hover h3{
+  transition: 0.8s;
+  transform: translateY(-23px);
+}
+.teleph{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.teleph:hover{
+  background: #dfe4ea;
+  /* background-image: url(img/tyan.jpg);
+  background-size: cover; */
+  transition: 1s;
+}
+.comp:hover{
+  background: #dfe4ea;
+  transition: 1s;
+}
+.tv{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.tv:hover{
+  background: #dfe4ea;
+  transition: 1s;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/* .tyan{
+  transform: translateY(-30px);
+} */
+/* .computer{
+  height: 20px;
+  background-color: red;
+}
+.tv{
+  height: 20px;
+  background-color: blue;
+} */
